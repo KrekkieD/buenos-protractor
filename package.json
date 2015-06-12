@@ -1,0 +1,29 @@
+{
+  "name": "buenos-protractor",
+  "version": "0.1.0-alpha",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrekkieD/buenos-protractor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrekkieD/buenos-protractor/issues"
+  },
+  "homepage": "https://github.com/KrekkieD/buenos-protractor#readme",
+  "dependencies": {
+    "chromedriver": "^2.15.1",
+    "gulp": "^3.8.11",
+    "gulp-protractor": "^1.0.0",
+    "protractor": "~2.0.0",
+    "selenium-server-standalone-jar": "^2.45.0"
+  },
+  "devDependencies": {
+    "express": "^4.12.4"
+  }
+}
