@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="initApp">
+<html>
     <head>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js"></script>
@@ -8,9 +8,9 @@
     </head>
     <body>
 
-        <form method="post" ng-controller="initappctrl">
+        <form method="post" ng-controller="bootstrapappctrl">
 
-            <h1>Init!</h1>
+            <h1>Manwel!</h1>
             <ol>
                 <li>
                     <input ng-model="one">
@@ -37,5 +37,10 @@
 
         </form>
 
+        <script>
+
+            angular.bootstrap(document.getElementById('bootstrap'), ['bootstrapApp']);
+
+        </script>
     </body>
 </html>

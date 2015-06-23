@@ -1,12 +1,12 @@
 'use strict';
 
-describe('index', function () {
+describe('manual', function () {
 
 	it ('should open the homepage', function () {
 
-		browser.ignoreSynchronization = false;
+		browser.ignoreSynchronization = true;
 
-		browser.get('/');
+		browser.get('/manualbootstrap.html');
 
 	});
 
@@ -19,8 +19,6 @@ describe('index', function () {
 		$('[ng-model="five"]').sendKeys('five');
 		$('[ng-model="six"]').sendKeys('six');
 		$('[ng-model="seven"]').sendKeys('seven');
-
-
 
 		//browser.sleep(10000);
 
