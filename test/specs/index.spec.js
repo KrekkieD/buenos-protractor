@@ -4,8 +4,6 @@ describe('index', function () {
 
 	it ('should open the homepage', function () {
 
-		browser.ignoreSynchronization = false;
-
 		browser.get('/');
 
 	});
@@ -20,9 +18,7 @@ describe('index', function () {
 		$('[ng-model="six"]').sendKeys('six');
 		$('[ng-model="seven"]').sendKeys('seven');
 
-
-
-		//browser.sleep(10000);
+		browser.sleep(1);
 
 	});
 

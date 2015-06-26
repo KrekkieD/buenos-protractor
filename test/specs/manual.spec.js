@@ -4,8 +4,6 @@ describe('manual', function () {
 
 	it ('should open the homepage', function () {
 
-		browser.ignoreSynchronization = true;
-
 		browser.get('/manualbootstrap.html');
 
 	});
@@ -20,7 +18,7 @@ describe('manual', function () {
 		$('[ng-model="six"]').sendKeys('six');
 		$('[ng-model="seven"]').sendKeys('seven');
 
-		//browser.sleep(10000);
+		protractor.promise.controlFlow().execute(function () {});
 
 	});
 

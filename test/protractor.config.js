@@ -8,8 +8,6 @@ config.baseUrl = 'http://localhost:8989';
 config.onPrepare = function () {
 
 	// don't choke on non-angular sites
-	//browser.ignoreSynchronization = true;
+	browser.ignoreSynchronization = true;
 
 };
-
-//config.rootElement = '[ng-app]';
